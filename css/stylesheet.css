@@ -4,10 +4,21 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #B27FA6;
+    background-color: #E6bFE0;
 }
 
 #main-container {
-    width: 1778px;
+    width: 1775px;
+    height: 2510px;
+    background-color: #B27FA6;
 }
 
+#intro {
+    background-color: #E6bFE0;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+    top: 0px;
+    padding: 10px;
+}
