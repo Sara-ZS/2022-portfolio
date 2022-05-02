@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    height:auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #B27FA6;
+}
+
+#main-container {
+    width: 1778px;
+}
+
