@@ -7,19 +7,42 @@ body {
 }
 
 #main-container {
-    width: 1778px;
     width: 1775px;
-    
     height: 2510px;
     background-color: #B27FA6;
 }
 
-#intro {
-    background-color: #E6bFE0;
+h1 {
+    margin-top: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ul {
+    margin-top: 200px;
+    background-color: #824E77;
     display: flex;
     position: fixed;
     justify-content: space-around;
     width: 100%;
     top: 0px;
     padding: 10px;
+    list-style: none;
 } 
+
+p {
+    margin-top: 150px;
+    margin-left: 50px;
+    background-color: #E6bFE0;
+    width: 762px;
+    height: 462px;
+}
+
+#imageback {
+    justify-content: flex-end;
+    background-color: #E6bFE0;
+    width: 30px;
+    height:30px;
+}
+
