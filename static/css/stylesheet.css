@@ -20,7 +20,7 @@ h1 {
   }
 
 ul {
-    margin-top: 200px;
+    margin-top: 300px;
     background-color: #824E77;
     display: flex;
     position: fixed;
@@ -33,7 +33,7 @@ ul {
 
 p {
     /* first paragraph about me */
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: 50px;
     background-color: #E6bFE0;
     width: 662px;
