@@ -32,17 +32,23 @@ ul {
 } 
 
 p {
+    /* first paragraph about me */
     margin-top: 150px;
     margin-left: 50px;
     background-color: #E6bFE0;
-    width: 762px;
+    width: 662px;
     height: 462px;
 }
 
-#imageback {
-    justify-content: flex-end;
+#backimage {
     background-color: #E6bFE0;
-    width: 30px;
-    height:30px;
-}
+    position: relative;
+  }
 
+  h2 {
+    margin-top: 0px;
+    background-color: #B27FA6;
+    width: 800px;
+    height: 500px;
+    justify-content: flex-end;
+  }
