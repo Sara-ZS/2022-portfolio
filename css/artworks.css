@@ -6,8 +6,8 @@ body {
 }
 
 #main-container {
-    width: 1775px;
-    height: 2510px;
+    width: 1770px;
+    height: 3510px;
     background-color: #E6bFE0;
 }
 
@@ -22,3 +22,60 @@ ul {
     padding: 10px;
     list-style: none;
 } 
+
+/* images start */
+#color {
+    width: 250px;        
+    border: 5px solid black;
+}
+
+#colorportrait {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#sk {
+    width: 250px;        
+    border: 5px solid black;
+}
+
+#skeleton {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+#turtle {
+    width: 250px;        
+    border: 5px solid black;
+}
+
+#cardboardturtle {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#depth {
+    width: 250px;        
+    border: 5px solid black;
+}
+
+#spatialdepth {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+#graphab {
+    width: 250px;        
+    border: 5px solid black;
+}
+
+#graphiteabstract {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+/* images end */
+
