@@ -40,25 +40,29 @@ ul {
     list-style: none;
 } 
 
-#next {
-    /* margin-top: 100px; */
-    background-color: #B27FA6;
-}
-
-#one {
+.one {
     /* first paragraph about me */
     margin-top: 100px; 
-    margin-left: 50px;
+    margin-left: 300px;
     background-color: #E6bFE0;
     width: 562px;
     height: 362px;
+    display: flex;
 }
 
-#image {
+.image {
     /* margin-top: 100px; */
     /* margin-left: 50px; */
     background-color: #E6bFE0;
     width: 562px;
     height: 662px;
+    display: flex;
 }
 
+.second {
+    margin-left: 660px;
+    background-color:#824E77;
+    width: 562px;
+    height: 600px;
+    display: flex;
+}
