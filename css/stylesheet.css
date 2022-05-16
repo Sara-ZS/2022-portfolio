@@ -42,27 +42,39 @@ ul {
 
 .one {
     /* first paragraph about me */
-    margin-top: 100px; 
-    margin-left: 300px;
-    background-color: #E6bFE0;
-    width: 562px;
-    height: 362px;
+    /* width: 562px;
+    height: 362px; */
     display: flex;
+    background-color: #E6bFE0;
+    justify-content: center;
+    margin-left: 100px;
 }
 
-.image {
-    /* margin-top: 100px; */
-    /* margin-left: 50px; */
-    background-color: #E6bFE0;
-    width: 562px;
-    height: 662px;
+#first {
     display: flex;
+    justify-content: center;
+    height: 360px;
+    width: 660px;
+    margin-top: 100px;
+    /* border: solid 1px #824E77 */
 }
 
-.second {
-    margin-left: 660px;
+#second {
+    /* margin-left: 660px; */
     background-color:#824E77;
     width: 562px;
     height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+#image {
+    /* margin-top: 100px; */
+    /* margin-left: 50px; */
+    display: flex;
+    margin: 100px;
+    background-color: #E6bFE0;
+    width: 562px;
+    height: 662px;
     display: flex;
 }
