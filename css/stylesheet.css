@@ -20,21 +20,33 @@ body {
     margin-right: auto;
 }
 
+.top {
+    position: relative;
+}
+
+#squiggly {
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px;     
+}
+
 h1 {
-    margin-top: 80px;
+    margin-top: 50px;
     display:flex;
     justify-content: center;
     align-items: center;
+    font-size: 50px; 
+    /* font-family: ; */
   }
 
 ul {
-    margin-top: 200px;
+    margin-top: 80px;
     background-color: #824E77;
     display: flex;
     position: static;
     justify-content: space-around;
-    height: 50px;
-    width: 1775px;
+    height: 25px;
+    width: 1770px;
     top: 0px;
     padding: 10px;
     list-style: none;
@@ -44,14 +56,12 @@ ul {
     /* first paragraph about me */
     /* width: 562px;
     height: 362px; */
-    display: flex;
     background-color: #E6bFE0;
     justify-content: center;
     margin-left: 100px;
 }
 
 #first {
-    display: flex;
     justify-content: center;
     height: 360px;
     width: 660px;
@@ -61,20 +71,20 @@ ul {
 
 #second {
     /* margin-left: 660px; */
-    background-color:#824E77;
-    width: 562px;
-    height: 600px;
-    display: flex;
+    background-color:#E6bFE0;
+    width: 662px;
+    height: 300px;
     flex-direction: column;
 }
 
 #image {
     /* margin-top: 100px; */
     /* margin-left: 50px; */
-    display: flex;
     margin: 100px;
     background-color: #E6bFE0;
-    width: 562px;
-    height: 662px;
-    display: flex;
+    width: 662px;
+    height: 685px;
+    margin-left: 1000px;
+    margin-top: -700px;
 }
+
