@@ -12,7 +12,7 @@ body {
 }
 
 #logo {
-    margin-top: 100px;
+    margin-top: -500px;
     width: 300px;
     height: auto;
     display: block;
@@ -21,13 +21,15 @@ body {
 }
 
 .top {
-    position: relative;
+   
 }
 
 #squiggly {
     max-width: 100%;
     max-height: 100%;
-    width: 250px;     
+    width: 1770px;  
+    margin-top: -500px;
+   
 }
 
 h1 {
@@ -36,8 +38,8 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 50px; 
-    /* font-family: ; */
-  }
+    font-family: felipa, cursive;
+}
 
 ul {
     margin-top: 80px;
@@ -50,6 +52,9 @@ ul {
     top: 0px;
     padding: 10px;
     list-style: none;
+    font-family: felipa, cursive;
+    font-size: 25px;
+    align-items: center;
 } 
 
 .one {
@@ -64,7 +69,7 @@ ul {
 #first {
     justify-content: center;
     height: 360px;
-    width: 660px;
+    width: 662px;
     margin-top: 100px;
     /* border: solid 1px #824E77 */
 }
@@ -86,5 +91,13 @@ ul {
     height: 685px;
     margin-left: 1000px;
     margin-top: -700px;
+}
+
+#picofme {
+    max-width: 100%;
+    max-height: 100%;
+    width: 350px;   
+    margin-left: 24%;
+    margin-top: 15%;
 }
 

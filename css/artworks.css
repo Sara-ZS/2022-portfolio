@@ -31,6 +31,9 @@ ul {
     top: 0px;
     padding: 10px;
     list-style: none;
+    font-family: felipa, cursive;
+    font-size: 25px;
+    align-items: center;
 } 
 
 /* images start */
