@@ -41,6 +41,10 @@ h1 {
     font-family: felipa, cursive;
 }
 
+a {
+    color: whitesmoke;
+}
+
 ul {
     margin-top: 80px;
     background-color: #824E77;
@@ -55,6 +59,7 @@ ul {
     font-family: felipa, cursive;
     font-size: 25px;
     align-items: center;
+    
 } 
 
 .one {

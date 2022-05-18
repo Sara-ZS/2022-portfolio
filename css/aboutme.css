@@ -20,6 +20,10 @@ body {
     margin-right: auto;
 }
 
+a {
+    color: whitesmoke;
+}
+
 ul {
     margin-top: 200px;
     background-color: #824E77;
