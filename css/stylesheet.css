@@ -20,16 +20,11 @@ body {
     margin-right: auto;
 }
 
-.top {
-   
-}
-
 #squiggly {
     max-width: 100%;
     max-height: 100%;
     width: 1770px;  
-    margin-top: -500px;
-   
+    margin-top: -490px;
 }
 
 h1 {
@@ -51,15 +46,14 @@ ul {
     display: flex;
     position: static;
     justify-content: space-around;
-    height: 25px;
+    height: 30px;
     width: 1770px;
     top: 0px;
     padding: 10px;
     list-style: none;
     font-family: felipa, cursive;
-    font-size: 25px;
+    font-size: 35px;
     align-items: center;
-    
 } 
 
 .one {
@@ -69,11 +63,15 @@ ul {
     background-color: #E6bFE0;
     justify-content: center;
     margin-left: 100px;
+    /* font-family: 'Space Mono', monospace; */
+    font-family: 'Asul', sans-serif;
+    padding: 10px;
+    font-size: 20px;
 }
 
 #first {
     justify-content: center;
-    height: 360px;
+    height: 300px;
     width: 662px;
     margin-top: 100px;
     /* border: solid 1px #824E77 */
