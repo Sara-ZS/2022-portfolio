@@ -7,7 +7,7 @@ body {
 
 #main-container {
     width: 1770px;
-    height: 3510px;
+    height: 2310px;
     background-color: #E6bFE0;
 }
 
@@ -59,7 +59,7 @@ a {
 /* images start */
 #color {
     width: 350px;        
-    border: 5px solid black;
+    border: 1px solid #824E77;
     margin-left: 200px;
     flex-direction: column;
     margin-bottom: 20px;
@@ -73,7 +73,7 @@ a {
 
 #sk {
     width: 350px;        
-    border: 5px solid black;
+    border: 1px solid #824E77;
     margin-bottom: 100px;
     flex-direction: column;
     margin-left: 200px;
@@ -86,11 +86,11 @@ a {
 }
 
 #turtle {
-    width: 350px;        
-    border: 5px solid black;
+    width: 360px;        
+     border: 1px solid #824E77;
     flex-direction: column;
-    margin-left: 650px;
-    margin-top: -900px;
+    margin-left: 690px;
+    margin-top: -1045px;
     margin-bottom: 20px;
 }
 
@@ -101,10 +101,10 @@ a {
 }
 
 #depth {
-    width: 350px;        
-    border: 5px solid black;
+    width: 360px;        
+     border: 1px solid #824E77;
     flex-direction: column;
-    margin-left: 650px;
+    margin-left: 690px;
 }
 
 #spatialdepth {
@@ -115,10 +115,10 @@ a {
 
 #graphab {
     width: 350px;        
-    border: 5px solid black;
+     border: 1px solid #824E77;
     flex-direction: column;
-    margin-left: 1100px;
-    margin-top: -650px;
+    margin-left: 1200px;
+    margin-top: -724px;
 }
 
 #graphiteabstract {
@@ -127,3 +127,32 @@ a {
     display: block;
 }
 /* images end */
+
+.footer {
+    position: relative;
+    transition-property: color;
+    transition-duration: .5s;
+    background-color: #824E77;
+    display: flex;
+    margin-top: 1165px;
+    position: static;
+    justify-content: space-around;
+    height: 35px;
+    width: 1750px;
+    top: 0px;
+    padding: 10px;
+    list-style: none;
+    font-family: felipa, cursive;
+    font-size: 35px;
+    align-items: center;
+}
+
+#bfooter:hover {
+    transition-property: color;
+    transition-duration: .5s;
+    color: #FFD700;
+    }
+
+li {
+    color: whitesmoke;
+}
